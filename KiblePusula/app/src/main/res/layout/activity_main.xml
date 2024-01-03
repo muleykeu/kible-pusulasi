@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#F8EFEB">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kıble Yönü"
+        android:textSize="50sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:textAlignment="center"
+        android:textColor="@color/purple_500"
+        android:fontFamily="cursive">
+    </TextView>
+
+  <ImageView
+      android:id="@+id/compass"
+      android:layout_width="150dp"
+      android:layout_height="150dp"
+      android:layout_centerInParent="true"
+      android:src="@drawable/compass">
+  </ImageView>
+
+</RelativeLayout>
